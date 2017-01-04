@@ -49,6 +49,10 @@ alias dsclean='/usr/bin/find . -name .DS_Store -exec rm -fr {} \;'
 # rm
 alias rr='/bin/rm -r $@'
 
+# find
+#Permission denied exclude
+alias dsfind='/usr/bin/find / -name .DS_Store 2>/dev/null'
+
 ##MacOSX
 # open current directory in Finder
 alias f='/usr/bin/open .'

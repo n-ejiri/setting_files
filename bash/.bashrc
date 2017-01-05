@@ -57,6 +57,11 @@ function exfind() {
     /usr/bin/find / -name $1 2>/dev/null;
 }
 alias exfind=exfind
+#Permission denied exclude free directory and word search
+function dexfind() {
+    /usr/bin/find $1 -name $2 2>/dev/null;
+}
+alias dexfind=dexfind
 
 ##MacOSX
 # open current directory in Finder

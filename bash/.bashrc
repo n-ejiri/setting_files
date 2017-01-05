@@ -228,6 +228,48 @@ function sesoutbound() {
 }
 alias sesoutbound=sesoutbound
 
+##Vagrant
+#Vagrantbox.es - http://www.vagrantbox.es/
+# Box add
+# $1:box title $2:Download vagrant box url
+function vagboxadd() {
+    /usr/local/bin/vagrant box add $1 $2;
+}
+alias vagboxadd=vagboxadd
+# initialization
+function vagboxinit() {
+    /usr/local/bin/vagrant init $1;
+}
+alias vagboxinit=vagboxinit
+# vagrant start
+alias vagstart='/usr/local/bin/vagrant up'
+
+# box all list disp
+alias vagdisp='/usr/local/bin/vagrant box list'
+# VM health status disp
+alias vaghealth='/usr/local/bin/vagrant status'
+# VM stop
+alias vagstop='/usr/local/bin/vagrant halt'
+# conf...etc update reflect
+alias vagreload='/usr/local/bin/vagrant reload'
+# VM login
+alias vaglogin='/usr/local/bin/vagrant ssh'
+# VM image delete - No box delete
+alias vagdelete='/usr/local/bin/vagrant destroy'
+
+# VM suspend
+alias vagsuspend='/usr/local/bin/vagrant suspend'
+# VM resume
+alias vagresume='/usr/local/bin/vagrant resume'
+# provision reload
+alias vagproreload='/usr/local/bin/vagrant provision'
+# Box delete
+# $1:delete box name
+function vagboxdelete() {
+    /usr/local/bin/vagrant box remove $1;
+}
+alias vagboxdelete=vagboxdelete
+
 ##Docker
 # CONTAINER all count
 alias dockcount='/usr/local/bin/docker ps -aq | /usr/bin/wc -l'

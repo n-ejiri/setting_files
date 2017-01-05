@@ -275,6 +275,8 @@ alias vagboxdelete=vagboxdelete
 alias dockcount='/usr/local/bin/docker ps -aq | /usr/bin/wc -l'
 # Healthcheck
 alias dockhealth='/usr/local/bin/docker ps -q | /usr/bin/wc -l'
+# Image list disp
+alias dockimagedisp='/usr/local/docker images'
 # CONTAINER restart
 function dockrestart() {
     /usr/local/bin/docker restart $@;

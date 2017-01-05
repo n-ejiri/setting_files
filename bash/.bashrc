@@ -50,8 +50,13 @@ alias dsclean='/usr/bin/find . -name .DS_Store -exec rm -fr {} \;'
 alias rr='/bin/rm -r $@'
 
 # find
-#Permission denied exclude
+#Permission denied exclude from .DS_Store
 alias dsfind='/usr/bin/find / -name .DS_Store 2>/dev/null'
+#Permission denied exclude
+function exfind() {
+    /usr/bin/find / -name $1 2>/dev/null;
+}
+alias exfind=exfind
 
 ##MacOSX
 # open current directory in Finder

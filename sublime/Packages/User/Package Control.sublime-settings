@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"Alignment",
+		"All Autocomplete",
+		"AutoFileName",
+		"AWS Lambda",
+		"Babel",
+		"BracketHighlighter",
+		"Can I Use",
+		"Codecs33",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"DataConverter",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"ElasticsearchClient",
+		"Emmet",
+		"FindKeyConflicts",
+		"Hayaku - tools for writing CSS faster",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"HTMLBeautify",
+		"JavaPropertiesEditor",
+		"nginx",
+		"Nodejs",
+		"Package Control",
+		"ProjectManager",
+		"ReactJS",
+		"SideBarEnhancements",
+		"Sublime Files",
+		"sublime_diagram_plugin",
+		"Sublimerge 3",
+		"Terminal",
+		"TrailingSpaces",
+		"View In Browser"
+	],
+	"repositories":
+	[
+		"https://github.com/hardillb/sublime_diagram_plugin"
+	]
+}

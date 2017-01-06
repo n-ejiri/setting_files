@@ -1,0 +1,1 @@
+{"dependencies": [], "description": "A Plug-In for Sublime Text 2 / 3 To Render Diagrams In Your Source Code", "url": "https://github.com/hardillb/sublime_diagram_plugin", "platforms": ["*"], "version": "2016.05.04.15.05.22", "sublime_text": "*"}
